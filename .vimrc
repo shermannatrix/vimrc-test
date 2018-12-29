@@ -111,9 +111,9 @@ let g:airline_theme='murmur'
 " PLUGIN: Airline Configurations
 "------------------------------------------------------------------------------ 
 let g:airline_section_a = airline#section#create(['mode'])
-let g:airline_section_b = airline#section#create(['hunks'])
+let g:airline_section_b = airline#section#create(['branch'])
 let g:airline_section_c = airline#section#create(['%f'])
-let g:airline_section_x = airline#section#create(['branch', 'ffenc'])
+let g:airline_section_x = airline#section#create(['hunks', 'ffenc'])
 let g:airline_section_y = airline#section#create(['filetype'])
 
 let g:airline_detect_modified=1
