@@ -120,6 +120,7 @@ let g:airline_detect_modified=1
 let g:airline_detect_paste=1
 let g:airline_inactive_collapse=1
 let g:airline_inactive_alt_sep=1
+let g:airline#extensions#branch#enabled = 1
 
 "------------------------------------------------------------------------------
 " PLUGIN: Fugitive Configurations (Airline Extensions)
