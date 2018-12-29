@@ -46,6 +46,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-ctrlspace/vim-ctrlspace'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vheon/vim-cursormode'
 
 Plugin 'lifepillar/vim-solarized8'
 Plugin 'morhetz/gruvbox'
