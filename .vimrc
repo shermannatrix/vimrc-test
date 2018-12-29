@@ -108,6 +108,19 @@ let g:airline_theme='murmur'
 "let g:airline_solarized_bg='dark'
 
 "------------------------------------------------------------------------------
+" PLUGIN: GitGutter Configuration (Airline Extensions)
+"------------------------------------------------------------------------------
+let g:gitgutter_enabled = 1
+let g:airline#extensions#hunks#enabled = 0
+let g:airline#extensions#hunks#non_zero_only = 0
+let g:airline#extensions#hunks#hunk_symbols = [ '+', '~', '-' ]
+
+"------------------------------------------------------------------------------
+" PLUGIN: Fugitive Configuration
+"------------------------------------------------------------------------------
+let g:airline#extensions#branch#enabled = 1
+
+"------------------------------------------------------------------------------
 " PLUGIN: Airline Configurations
 "------------------------------------------------------------------------------ 
 let g:airline_section_a = airline#section#create(['mode'])
@@ -120,20 +133,6 @@ let g:airline_detect_modified=1
 let g:airline_detect_paste=1
 let g:airline_inactive_collapse=1
 let g:airline_inactive_alt_sep=1
-let g:airline#extensions#branch#enabled = 1
-
-"------------------------------------------------------------------------------
-" PLUGIN: Fugitive Configurations (Airline Extensions)
-"------------------------------------------------------------------------------
-let g:airline#extensions#fugitiveline#enabled = 1
-
-"------------------------------------------------------------------------------
-" PLUGIN: GitGutter Configuration (Airline Extensions)
-"------------------------------------------------------------------------------
-let g:gitgutter_enabled = 1
-let g:airline#extensions#hunks#enabled = 0
-let g:airline#extensions#hunks#non_zero_only = 0
-let g:airline#extensions#hunks#hunk_symbols = [ '+', '~', '-' ]
 
 "------------------------------------------------------------------------------
 " PLUGIN: Powerline Configurations (Airline Extensions)
